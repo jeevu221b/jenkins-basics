@@ -151,7 +151,6 @@ const Login = () => {
             if (response.ok) {
                 // event.preventDefault();
                 // setShowOTPField(false)
-                // setLoggedIn(false)
                 console.log("Success")
             } else {
                 console.log("Failed")
