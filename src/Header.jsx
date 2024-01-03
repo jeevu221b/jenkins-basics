@@ -7,7 +7,7 @@ const styles = {
 
 function SaveTax() {
     return (
-        <h1 style={styles}>Wasteland, Baby!</h1>
+        <h1 style={styles}>Wasteland, Baby!!!!</h1>
     );
 }
 
