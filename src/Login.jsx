@@ -8,7 +8,7 @@ const Login = () => {
     const [otp, setOTP] = useState('');
     const [loggedIn, setLoggedIn] = useState(false);
     const [userData, setUserData] = useState(null);
-    const [loader, setLoader] = useState(false);
+    // const [loader, setLoader] = useState(false);
     const [invalidEmail, setInvalidEmail] = useState(false);
     const [invalidOTP, setInvalidOTP] = useState(false);
     const [serverError, setServerError] = useState(false);
@@ -27,7 +27,7 @@ const Login = () => {
     }, [token]);
 
     const fetchUserData = async (token) => {
-        setLoader(true);
+        // setLoader(true);
         try {
             const response = await fetch('http://localhost:4000/getuser', {
                 method: 'GET',
@@ -50,7 +50,7 @@ const Login = () => {
         } catch (error) {
             console.error('Error:', error);
         }
-        setLoader(false);
+        // setLoader(false);
     };
 
     const handleEmailSubmit = async (event) => {

@@ -7,7 +7,7 @@ const styles = {
 
 function SaveTax() {
     return (
-        <h1 style={styles}>Save-Taxis</h1>
+        <h1 style={styles}>Save-Texas</h1>
     );
 }
 
